@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is a totaly free web application, which is used to write text and access from anywhere in the world and download it as .txt file in our devices.">
+	<meta name="keywords" content="rishikesh verma,Rishikesh verma,notepad,online editor,online notepad,rishikesh verma notepad,text editor,free nodepad,online Download">
+	<meta name="author" content="Rishikesh Verma">
+	<title>Online Notepad</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+
+</head>
+<body>
+	<center>
+		<span><h1>Online Notepad</h1></span><br>
+	    
+	</center>
+	<center>
+	<div>
+		<input type="text" name="name" id="docName" placeholder=" file name">&nbsp.txt
+	    <input type="button" value="Download" onclick="Download()" id="button"><br>
+	    <label for="Font">Select font size: </label>
+	    <select id="optn" onchange="fontSizeSet()">
+	    <option value="10px">1</option>
+	    <option value="13px">2</option>
+	    <option value="16px">3</option>
+		<option value="20px">4</option>
+		<option value="26px">5</option>
+		<option value="33px">6</option>
+	    <option value="41px">7</option>
+	    <option value="49px">8</option>
+		<option value="57px">9</option>
+		<option value="70px">10</option>
+		</select><br><br>
+	    <textarea placeholder="Start writing from here... Made by - Rishikesh Verma" id="textInput"></textarea>
+	</div>	
+	</center> 
+</body>
+</html>
