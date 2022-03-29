@@ -1,4 +1,3 @@
-
 *{
 	padding: 0px;
 	margin: 0px;
@@ -48,17 +47,19 @@ div{
 	margin-top: 0px; 
 }
 
-#docName{
+#textDocName,#wordDocName{
    font-size: 15px;
    padding: 3px;
+   padding-left: 10px;
    background-color: white;
    border: 2px solid black;
    border-radius: 20px;
 }
 
-#docName:hover{
+#textDocName:hover,#wordDocName:hover{
    font-size: 15px;
    padding: 3px;
+   padding-left: 10px;
    background-color: white;
    border: 2px solid black;
    box-shadow: 0 0 15px;
@@ -73,7 +74,7 @@ div{
 	margin: 2px;
 	padding: 5px;
 	font-family: arial;
-	border:2px solid black;
+	border:2px solid b  lack;
 	border-radius: 10px;
 }
 
