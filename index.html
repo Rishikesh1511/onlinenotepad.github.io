@@ -19,20 +19,27 @@
 	</center>
 	<center>
 	<div>
-		<input type="text" name="name" id="docName" placeholder=" file name">&nbsp.txt
-	    <input type="button" value="Download" onclick="Download()" id="button"><br>
-	    <label for="Font">Select font size: </label>
+		<input type="text"  id="textDocName" placeholder="Text file name">.txt &nbsp
+
+		<input type="button" id="button" name="text-btn" value="Download" onclick="textFileDownload()"><br>
+
+		<input type="text" id="wordDocName" placeholder="Word file name">.doc &nbsp
+
+		<input type="button" id="button" name="word-btn" value="Download" onclick="wordFileDownload()"><br>
+
+
+	    <label for="Font">Select text size: </label>
 	    <select id="optn" onchange="fontSizeSet()">
 	    <option value="10px">1</option>
 	    <option value="13px">2</option>
 	    <option value="16px">3</option>
 		<option value="20px">4</option>
-		<option value="26px">5</option>
-		<option value="33px">6</option>
-	    <option value="41px">7</option>
-	    <option value="49px">8</option>
-		<option value="57px">9</option>
-		<option value="70px">10</option>
+		<option value="25px">5</option>
+		<option value="30px">6</option>
+	    <option value="36px">7</option>
+	    <option value="44px">8</option>
+		<option value="51px">9</option>
+		<option value="60px">10</option>
 		</select><br><br>
 	    <textarea placeholder="Start writing from here... Made by - Rishikesh Verma" id="textInput"></textarea>
 	</div>	
